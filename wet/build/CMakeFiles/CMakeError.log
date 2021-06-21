@@ -1,0 +1,59 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/student/Desktop/HW4/wet/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49bfd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49bfd.dir/build.make CMakeFiles/cmTC_49bfd.dir/build
+make[1]: Entering directory '/home/student/Desktop/HW4/wet/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49bfd.dir/CMakeCCompilerABI.c.o
+/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_49bfd.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+/usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c:25:1: fatal error: error closing /tmp/ccarXTLW.s: No space left on device
+ }
+ ^
+compilation terminated.
+CMakeFiles/cmTC_49bfd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_49bfd.dir/CMakeCCompilerABI.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_49bfd.dir/CMakeCCompilerABI.c.o] Error 1
+make[1]: Leaving directory '/home/student/Desktop/HW4/wet/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_49bfd/fast' failed
+make: *** [cmTC_49bfd/fast] Error 2
+
+
+
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /home/student/Desktop/HW4/wet/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3451d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3451d.dir/build.make CMakeFiles/cmTC_3451d.dir/build
+make[1]: Entering directory '/home/student/Desktop/HW4/wet/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3451d.dir/feature_tests.c.o
+/usr/bin/x86_64-linux-gnu-gcc-7   -std=c11 -o CMakeFiles/cmTC_3451d.dir/feature_tests.c.o   -c /home/student/Desktop/HW4/wet/build/CMakeFiles/feature_tests.c
+/home/student/Desktop/HW4/wet/build/CMakeFiles/feature_tests.c:34:1: fatal error: error closing /tmp/cczVeoy8.s: No space left on device
+ int main(int argc, char** argv) { (void)argv; return features[argc]; }
+ ^~~
+compilation terminated.
+CMakeFiles/cmTC_3451d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3451d.dir/feature_tests.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_3451d.dir/feature_tests.c.o] Error 1
+make[1]: Leaving directory '/home/student/Desktop/HW4/wet/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3451d/fast' failed
+make: *** [cmTC_3451d/fast] Error 2
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/student/Desktop/HW4/wet/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3db31/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3db31.dir/build.make CMakeFiles/cmTC_3db31.dir/build
+make[1]: Entering directory '/home/student/Desktop/HW4/wet/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3db31.dir/testCXXCompiler.cxx.o
+/usr/bin/x86_64-linux-gnu-g++-7     -o CMakeFiles/cmTC_3db31.dir/testCXXCompiler.cxx.o -c /home/student/Desktop/HW4/wet/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+/home/student/Desktop/HW4/wet/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx:4:21: fatal error: error closing /tmp/ccK7jgxa.s: No space left on device
+ int main(){return 0;}
+                     ^
+compilation terminated.
+CMakeFiles/cmTC_3db31.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3db31.dir/testCXXCompiler.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_3db31.dir/testCXXCompiler.cxx.o] Error 1
+make[1]: Leaving directory '/home/student/Desktop/HW4/wet/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3db31/fast' failed
+make: *** [cmTC_3db31/fast] Error 2
+
+

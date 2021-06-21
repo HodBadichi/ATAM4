@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-gcc-7 -g  -rdynamic CMakeFiles/debugger.dir/debugger.c.o CMakeFiles/debugger.dir/utils.c.o  -o debugger 
