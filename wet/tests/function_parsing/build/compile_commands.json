@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/student/Desktop/OS-HW4/ATAM4/wet/tests/function_parsing/build",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-7   -g   -o CMakeFiles/parser.dir/elf_parser.c.o   -c /home/student/Desktop/OS-HW4/ATAM4/wet/tests/function_parsing/elf_parser.c",
+  "file": "/home/student/Desktop/OS-HW4/ATAM4/wet/tests/function_parsing/elf_parser.c"
+},
+{
+  "directory": "/home/student/Desktop/OS-HW4/ATAM4/wet/tests/function_parsing/build",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-7   -g   -o CMakeFiles/parser.dir/utils.c.o   -c /home/student/Desktop/OS-HW4/ATAM4/wet/tests/function_parsing/utils.c",
+  "file": "/home/student/Desktop/OS-HW4/ATAM4/wet/tests/function_parsing/utils.c"
+}
+]

@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/student/Desktop/HW4/wet
-BuildDirectory: /home/student/Desktop/HW4/wet/build
+SourceDirectory: /home/student/Desktop/OS-HW4/ATAM4/wet
+BuildDirectory: /home/student/Desktop/OS-HW4/ATAM4/wet/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -36,7 +36,7 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/student/Desktop/HW4/wet"
+ConfigureCommand: "/usr/bin/cmake" "/home/student/Desktop/OS-HW4/ATAM4/wet"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/student/Desktop/HW4/wet
+# Install script for directory: /home/student/Desktop/OS-HW4/ATAM4/wet
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/student/Desktop/HW4/wet/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/student/Desktop/OS-HW4/ATAM4/wet/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

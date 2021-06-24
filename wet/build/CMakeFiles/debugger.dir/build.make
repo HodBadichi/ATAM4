@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/Desktop/HW4/wet
+CMAKE_SOURCE_DIR = /home/student/Desktop/OS-HW4/ATAM4/wet
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/Desktop/HW4/wet/build
+CMAKE_BINARY_DIR = /home/student/Desktop/OS-HW4/ATAM4/wet/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/debugger.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/debugger.dir/flags.make
 
 CMakeFiles/debugger.dir/debugger.c.o: CMakeFiles/debugger.dir/flags.make
 CMakeFiles/debugger.dir/debugger.c.o: ../debugger.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Desktop/HW4/wet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/debugger.dir/debugger.c.o"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/debugger.dir/debugger.c.o   -c /home/student/Desktop/HW4/wet/debugger.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Desktop/OS-HW4/ATAM4/wet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/debugger.dir/debugger.c.o"
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/debugger.dir/debugger.c.o   -c /home/student/Desktop/OS-HW4/ATAM4/wet/debugger.c
 
 CMakeFiles/debugger.dir/debugger.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/debugger.dir/debugger.c.i"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/Desktop/HW4/wet/debugger.c > CMakeFiles/debugger.dir/debugger.c.i
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/Desktop/OS-HW4/ATAM4/wet/debugger.c > CMakeFiles/debugger.dir/debugger.c.i
 
 CMakeFiles/debugger.dir/debugger.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/debugger.dir/debugger.c.s"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/Desktop/HW4/wet/debugger.c -o CMakeFiles/debugger.dir/debugger.c.s
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/Desktop/OS-HW4/ATAM4/wet/debugger.c -o CMakeFiles/debugger.dir/debugger.c.s
 
 CMakeFiles/debugger.dir/debugger.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/debugger.dir/debugger.c.o.provides.build: CMakeFiles/debugger.dir/deb
 
 CMakeFiles/debugger.dir/utils.c.o: CMakeFiles/debugger.dir/flags.make
 CMakeFiles/debugger.dir/utils.c.o: ../utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Desktop/HW4/wet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/debugger.dir/utils.c.o"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/debugger.dir/utils.c.o   -c /home/student/Desktop/HW4/wet/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Desktop/OS-HW4/ATAM4/wet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/debugger.dir/utils.c.o"
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/debugger.dir/utils.c.o   -c /home/student/Desktop/OS-HW4/ATAM4/wet/utils.c
 
 CMakeFiles/debugger.dir/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/debugger.dir/utils.c.i"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/Desktop/HW4/wet/utils.c > CMakeFiles/debugger.dir/utils.c.i
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/Desktop/OS-HW4/ATAM4/wet/utils.c > CMakeFiles/debugger.dir/utils.c.i
 
 CMakeFiles/debugger.dir/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/debugger.dir/utils.c.s"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/Desktop/HW4/wet/utils.c -o CMakeFiles/debugger.dir/utils.c.s
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/Desktop/OS-HW4/ATAM4/wet/utils.c -o CMakeFiles/debugger.dir/utils.c.s
 
 CMakeFiles/debugger.dir/utils.c.o.requires:
 
@@ -117,7 +117,7 @@ debugger: CMakeFiles/debugger.dir/debugger.c.o
 debugger: CMakeFiles/debugger.dir/utils.c.o
 debugger: CMakeFiles/debugger.dir/build.make
 debugger: CMakeFiles/debugger.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/Desktop/HW4/wet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable debugger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/Desktop/OS-HW4/ATAM4/wet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable debugger"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/debugger.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/debugger.dir/clean:
 .PHONY : CMakeFiles/debugger.dir/clean
 
 CMakeFiles/debugger.dir/depend:
-	cd /home/student/Desktop/HW4/wet/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Desktop/HW4/wet /home/student/Desktop/HW4/wet /home/student/Desktop/HW4/wet/build /home/student/Desktop/HW4/wet/build /home/student/Desktop/HW4/wet/build/CMakeFiles/debugger.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/Desktop/OS-HW4/ATAM4/wet/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Desktop/OS-HW4/ATAM4/wet /home/student/Desktop/OS-HW4/ATAM4/wet /home/student/Desktop/OS-HW4/ATAM4/wet/build /home/student/Desktop/OS-HW4/ATAM4/wet/build /home/student/Desktop/OS-HW4/ATAM4/wet/build/CMakeFiles/debugger.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/debugger.dir/depend
 

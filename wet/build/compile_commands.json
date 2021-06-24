@@ -1,12 +1,12 @@
 [
 {
-  "directory": "/home/student/Desktop/HW4/wet/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7   -g   -o CMakeFiles/debugger.dir/debugger.c.o   -c /home/student/Desktop/HW4/wet/debugger.c",
-  "file": "/home/student/Desktop/HW4/wet/debugger.c"
+  "directory": "/home/student/Desktop/OS-HW4/ATAM4/wet/build",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-7   -g   -o CMakeFiles/debugger.dir/debugger.c.o   -c /home/student/Desktop/OS-HW4/ATAM4/wet/debugger.c",
+  "file": "/home/student/Desktop/OS-HW4/ATAM4/wet/debugger.c"
 },
 {
-  "directory": "/home/student/Desktop/HW4/wet/build",
-  "command": "/usr/bin/x86_64-linux-gnu-gcc-7   -g   -o CMakeFiles/debugger.dir/utils.c.o   -c /home/student/Desktop/HW4/wet/utils.c",
-  "file": "/home/student/Desktop/HW4/wet/utils.c"
+  "directory": "/home/student/Desktop/OS-HW4/ATAM4/wet/build",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-7   -g   -o CMakeFiles/debugger.dir/utils.c.o   -c /home/student/Desktop/OS-HW4/ATAM4/wet/utils.c",
+  "file": "/home/student/Desktop/OS-HW4/ATAM4/wet/utils.c"
 }
 ]

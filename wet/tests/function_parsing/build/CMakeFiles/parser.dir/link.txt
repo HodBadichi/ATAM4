@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-gcc-7 -g  -rdynamic CMakeFiles/parser.dir/elf_parser.c.o CMakeFiles/parser.dir/utils.c.o  -o parser 

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/student/Desktop/HW4/wet/debugger.c" "/home/student/Desktop/HW4/wet/build/CMakeFiles/debugger.dir/debugger.c.o"
-  "/home/student/Desktop/HW4/wet/utils.c" "/home/student/Desktop/HW4/wet/build/CMakeFiles/debugger.dir/utils.c.o"
+  "/home/student/Desktop/OS-HW4/ATAM4/wet/debugger.c" "/home/student/Desktop/OS-HW4/ATAM4/wet/build/CMakeFiles/debugger.dir/debugger.c.o"
+  "/home/student/Desktop/OS-HW4/ATAM4/wet/utils.c" "/home/student/Desktop/OS-HW4/ATAM4/wet/build/CMakeFiles/debugger.dir/utils.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/Desktop/HW4/wet
+CMAKE_SOURCE_DIR = /home/student/Desktop/OS-HW4/ATAM4/wet
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/Desktop/HW4/wet/build
+CMAKE_BINARY_DIR = /home/student/Desktop/OS-HW4/ATAM4/wet/build
 
 # Utility rule file for Experimental.
 
@@ -71,6 +71,6 @@ CMakeFiles/Experimental.dir/clean:
 .PHONY : CMakeFiles/Experimental.dir/clean
 
 CMakeFiles/Experimental.dir/depend:
-	cd /home/student/Desktop/HW4/wet/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Desktop/HW4/wet /home/student/Desktop/HW4/wet /home/student/Desktop/HW4/wet/build /home/student/Desktop/HW4/wet/build /home/student/Desktop/HW4/wet/build/CMakeFiles/Experimental.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/Desktop/OS-HW4/ATAM4/wet/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Desktop/OS-HW4/ATAM4/wet /home/student/Desktop/OS-HW4/ATAM4/wet /home/student/Desktop/OS-HW4/ATAM4/wet/build /home/student/Desktop/OS-HW4/ATAM4/wet/build /home/student/Desktop/OS-HW4/ATAM4/wet/build/CMakeFiles/Experimental.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Experimental.dir/depend
 

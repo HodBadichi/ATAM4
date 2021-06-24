@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/Desktop/OS-HW4/ATAM4/wet/tests/function_parsing/elf64.h
+stdint.h
+-
+
+/home/student/Desktop/OS-HW4/ATAM4/wet/tests/function_parsing/elf_parser.c
+stdio.h
+-
+utils.h
+/home/student/Desktop/OS-HW4/ATAM4/wet/tests/function_parsing/utils.h
+
+/home/student/Desktop/OS-HW4/ATAM4/wet/tests/function_parsing/utils.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+utils.h
+/home/student/Desktop/OS-HW4/ATAM4/wet/tests/function_parsing/utils.h
+
+/home/student/Desktop/OS-HW4/ATAM4/wet/tests/function_parsing/utils.h
+elf64.h
+/home/student/Desktop/OS-HW4/ATAM4/wet/tests/function_parsing/elf64.h
+
