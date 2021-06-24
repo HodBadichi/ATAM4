@@ -2,8 +2,9 @@
 #include <string.h>
 #include <stdlib.h>
 #include "utils.h"
+#include <unistd.h>
 
-unsigned long get_function_address(char * function_name , char* file_name)
+unsigned  long get_function_address(char * function_name , char* file_name)
 {
     FILE* my_file = fopen(file_name, "rb");
     if(!my_file)
@@ -48,9 +49,9 @@ unsigned long get_function_address(char * function_name , char* file_name)
                     {  
                         fread(&c, 1 , 1, my_file); 
                         loop_cnt++;
-                    } while (function_name[j] != '\0' && function_name[j] == c && c != '\0');
+                    } while (function_name[loop_cnt] != '\0' && function_name[loop_cnt] == c && c != '\0');
 
-                    if(c != function_name[j])
+                    if(c != function_name[loop_cnt])
                         continue; 
                     else 
                     {
@@ -63,11 +64,11 @@ unsigned long get_function_address(char * function_name , char* file_name)
                         }
                         else
                         {
-                            unsigned long temp = table_symbol[i].st_value;
+                            unsigned long global_func_offset = table_symbol[i].st_value;
                             free(table_symbol);
                             fclose(my_file);
                             printf("PRF:: global found!\n");
-                            return temp;
+                            return global_func_offset;
                         }
                     }
                 }
@@ -76,7 +77,7 @@ unsigned long get_function_address(char * function_name , char* file_name)
         }
         j++;
     }
-    printf("PRF:: not found!");
+    printf("PRF:: not found!\n");
     fclose(my_file);
     exit(1);
 }

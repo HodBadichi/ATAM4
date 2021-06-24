@@ -1,0 +1,4 @@
+argument 1: hello_world
+argument 2: run3.out
+argument 1: hello_world
+argument 2: run3.out

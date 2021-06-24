@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "ptrace.h": "c",
-        "utils.h": "c"
+        "utils.h": "c",
+        "user.h": "c"
     }
 }
